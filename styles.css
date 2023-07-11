@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&family=Inter&display=swap');
+
+:root {
+    --almostwhite: hsl(0, 0%, 98%);
+    --mediumgray: hsl(0, 0%, 41%);
+    --almostblack: hsl(0, 0%, 8%);
+}
+
+body {
+    min-height: 100vh;
+    background: var(--almostwhite);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+main {
+    width: 100%;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+}
+
+.hero-image {
+    width: 100%;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
