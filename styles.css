@@ -20,6 +20,7 @@ body {
 header {
     display: flex;
     justify-content: space-between;
+    padding: 1rem;
 }
 
 main {
@@ -29,6 +30,37 @@ main {
 footer {
     display: flex;
     align-items: center;
+}
+
+.header-logo {
+    height: 100%;
+}
+
+.header-menu {
+    height: 100%;
+    width: 2.5rem;
+    margin-left: auto;
+}
+
+.nav-content {
+    display:none;
+}
+
+.nav-content.open {
+    display: flex;
+    padding: 1rem;
+    flex-direction: column;
+    position: fixed;
+    min-height: 100vh;
+    width: 50%;
+    background-color: var(--almostwhite);
+    top: 0;
+    right: 0;
+}
+
+.header-nav {
+    display: flex;
+    flex-direction: column;
 }
 
 .hero-image {
