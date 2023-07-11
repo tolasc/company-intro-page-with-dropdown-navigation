@@ -42,12 +42,15 @@
         </div>
       </section>
       <div class="hero-section">
-        <img
-          class="hero-image"
-          src="images/image-hero-mobile.png"
-          srcset="images/image-hero-desktop.png 480w"
-          alt="person working remote"
-        />
+        <picture>
+          <source media="(min-width:900px)" srcset="images/image-hero-desktop.png">
+          <source media="(min-width:480px)" srcset="images/image-hero-mobile.png">
+          <img
+            class="hero-image"
+            src="images/image-hero-mobile.png"
+            alt="person working remote"
+          />
+        </picture>
       </div>
     </main>
 
