@@ -21,9 +21,28 @@
         <div class="nav-bar">
           <img src="images/icon-close-menu.svg" class="header-menu" id="sidebar-close" alt="close" />
           <nav class="header-nav">
-            <button class="header-features">Features <img src="images/icon-arrow-down.svg" alt="open features menu"/></button>
-            <a href="" class="header-company">Company</a>
-            <button href="" class="header-reminders">Careers <img src="images/icon-arrow-down.svg" alt="open careers menu"/></button>
+            <div>
+              <button class="header-accordion">Features <img class="accordion-arrow" src="images/icon-arrow-down.svg" alt="open features menu"/></button>
+                <div class="header-accordion-content">
+                  <div class="accordion-content-links">
+                    <a href=""><img src="images/icon-todo.svg"/>Todo List</a>
+                    <a href=""><img src="images/icon-calendar.svg"/>Calendar</a>
+                    <a href=""><img src="images/icon-reminders.svg"/>Reminders</a>
+                    <a href=""><img src="images/icon-planning.svg"/>Planning</a>
+                  </div>
+                </div>
+            </div>
+            <div>
+              <button class="header-accordion">Company <img class="accordion-arrow" src="images/icon-arrow-down.svg" alt="open careers menu"/></button>
+                <div class="header-accordion-content">
+                  <div class="accordion-content-links">
+                    <a href="">History</a>
+                    <a href="">Our Team</a>
+                    <a href="">Blog</a>
+                  </div>
+                </div>
+            </div>
+            <a href="" class="header-company">Careers</a>
             <a href="" class="header-about">About</a>
           </nav>
           <button class="header-login-button">Login</button>

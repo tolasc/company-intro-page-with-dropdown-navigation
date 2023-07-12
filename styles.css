@@ -75,6 +75,7 @@ footer {
     background-color: var(--almostwhite);
     top: 0;
     right: 0;
+    gap: 1rem;
 }
 
 .nav-content.open .nav-overlay {
@@ -90,6 +91,29 @@ footer {
 .header-nav {
     display: flex;
     flex-direction: column;
+    gap: 1rem;
+}
+
+.header-accordion.open+.header-accordion-content {
+    max-height: 200px;
+}
+
+.header-accordion-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease-out;
+}
+
+.accordion-content-links {
+    display: flex;
+    flex-direction: column;
+    padding-left: 1rem;
+    padding-top: 1rem;
+    gap: 1rem;
+}
+
+.header-accordion.open .accordion-arrow {
+    content: url("images/icon-arrow-up.svg");
 }
 
 .hero-image {
