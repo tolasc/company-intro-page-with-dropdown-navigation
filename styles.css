@@ -43,11 +43,15 @@ footer {
 }
 
 .nav-content {
-    display:none;
+    visibility: hidden;
+    position: fixed;
 }
 
 .nav-content.open {
-    display: flex;
+    visibility: visible;
+}
+
+.nav-content.open .nav-bar {
     padding: 1rem;
     flex-direction: column;
     position: fixed;
@@ -56,6 +60,16 @@ footer {
     background-color: var(--almostwhite);
     top: 0;
     right: 0;
+}
+
+.nav-content.open .nav-overlay {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top:0;
+    left: 0;
+    background: hsla(0, 0%, 8%, 0.4);
+    transition: all 0.2s;
 }
 
 .header-nav {

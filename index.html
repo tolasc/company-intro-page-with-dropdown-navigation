@@ -7,6 +7,7 @@
 
     <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png"/>
     <link rel="stylesheet" href="./styles.css" />
+    <script defer src="script.js"></script>
 
     <title>Frontend Mentor | Intro section with dropdown navigation</title>
   </head>
@@ -14,16 +15,20 @@
     <header>
       <img src="images/logo.svg" class="header-logo" alt="snap" />
       <img src="images/icon-menu.svg" class="header-menu" id="sidebar-open" alt="open" />
+      
       <div class="nav-content">
-        <img src="images/icon-close-menu.svg" class="header-menu" id="sidebar-close" alt="close" />
-        <nav class="header-nav">
-          <a href="" class="header-features">Features</a>
-          <a href="" class="header-company">Company</a>
-          <a href="" class="header-reminders">Careers</a>
-          <a href="" class="header-about">About</a>
-        </nav>
-        <button class="header-login-button">Login</button>
-        <button class="header-register-button">Register</button>
+        <div class="nav-overlay"></div>
+        <div class="nav-bar">
+          <img src="images/icon-close-menu.svg" class="header-menu" id="sidebar-close" alt="close" />
+          <nav class="header-nav">
+            <a href="" class="header-features">Features</a>
+            <a href="" class="header-company">Company</a>
+            <a href="" class="header-reminders">Careers</a>
+            <a href="" class="header-about">About</a>
+          </nav>
+          <button class="header-login-button">Login</button>
+          <button class="header-register-button">Register</button>
+        </div>
       </div>
     </header>
 
@@ -62,6 +67,5 @@
           >Frontend Mentor</a>. Coded by <a href="#">Your Name Here</a>.
       </div>
     </footer>
-    <script src="script.js"></script>
   </body>
 </html>
