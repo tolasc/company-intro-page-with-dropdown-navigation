@@ -92,7 +92,7 @@ footer {
 
 .nav-bar {
     transform: translateX(100%);
-    transition: transform .15s ease-in-out;
+    transition: transform .2s ease-in-out;
 }
 
 .nav-content.open .nav-bar {
@@ -191,11 +191,19 @@ footer {
 
 .main-button {
     background-color: var(--almostblack);
+    border: solid 2px var(--almostblack);
     color: var(--almostwhite);
     height: 3.5rem;
     width: 9rem;
     text-align: center;
     border-radius: 12px;
+
+    transition: all 0.15s ease-out;
+}
+
+.main-button:hover {
+    background-color: var(--almostwhite);
+    color: var(--almostblack);
 }
 
 .main-clients {
