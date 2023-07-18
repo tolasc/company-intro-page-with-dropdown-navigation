@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -43,13 +45,13 @@ button {
 }
 
 .header-register {
-    border: solid black;
+    border: solid var(--almostblack);
     border-radius: 16px;
     border-width: 2px;
 }
 
 a {
-    color: black;
+    color: var(--almostblack);
     text-decoration: none;
 }
 
