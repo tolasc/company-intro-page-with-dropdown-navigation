@@ -90,7 +90,13 @@ footer {
     visibility: visible;
 }
 
+.nav-bar {
+    transform: translateX(100%);
+    transition: transform .15s ease-in-out;
+}
+
 .nav-content.open .nav-bar {
+    transform: translateX(0);
     display: flex;
     flex-direction: column;
     position: fixed;
