@@ -32,11 +32,6 @@ button {
 }
 
 .header-button {
-    height: 3.5rem;
-    text-align: center;
-}
-
-.header-login-button {
     height: 3.25rem;
     text-align: center;
 }
