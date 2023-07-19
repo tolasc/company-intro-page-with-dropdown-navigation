@@ -231,3 +231,26 @@ footer {
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
+
+@media screen and (min-width: 900px) {
+    #sidebar-open, #sidebar-close, .nav-overlay, .nav-content, .nav-bar {
+        all: initial;
+        font-family: 'Epilogue', sans-serif;
+        font-weight: 500;
+        font-size: 18px;
+    }
+    #sidebar-open, #sidebar-close, .nav-overlay {
+        display: none;
+        transition: none;
+    }
+    .nav-bar {
+        display: flex;
+        flex-direction: row;
+    }
+    .header-nav {
+        flex-direction: row;
+    }
+    .header-account {
+        flex-direction: row;
+    }
+}
