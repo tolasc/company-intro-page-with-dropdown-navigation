@@ -46,7 +46,7 @@ button {
 
 .header-register {
     border: solid var(--mediumgray);
-    border-radius: 16px;
+    border-radius: 12px;
     border-width: 2px;
 }
 
