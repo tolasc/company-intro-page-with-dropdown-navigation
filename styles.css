@@ -253,4 +253,9 @@ footer {
     .header-account {
         flex-direction: row;
     }
+    .header-accordion-content {
+        position: fixed;
+        background-color: var(--almostwhite);
+        box-shadow: inset;
+    }
 }
