@@ -255,7 +255,9 @@ footer {
     }
     .header-accordion-content {
         position: fixed;
+    }
+    .header-accordion.open+.header-accordion-content {
         background-color: var(--almostwhite);
-        box-shadow: inset;
+        box-shadow: 0 0 16px 2px hsla(0, 0%, 8%, 0.3);
     }
 }
