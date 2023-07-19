@@ -41,16 +41,17 @@ button {
 .header-button {
     height: 3.25rem;
     text-align: center;
+    color: var(--mediumgray);
 }
 
 .header-register {
-    border: solid var(--almostblack);
+    border: solid var(--mediumgray);
     border-radius: 16px;
     border-width: 2px;
 }
 
 a {
-    color: var(--almostblack);
+    color: var(--mediumgray);
     text-decoration: none;
 }
 
@@ -133,6 +134,10 @@ footer {
     flex-direction: column;
     gap: 1.5rem;
     padding-left: 0.25rem;
+}
+
+.header-accordion {
+    color: var(--mediumgray);
 }
 
 .header-accordion img{
