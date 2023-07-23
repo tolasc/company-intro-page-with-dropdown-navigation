@@ -184,6 +184,10 @@ footer {
     width: 2.25rem;
 } 
 
+.accordion-arrow::before {
+    visibility: hidden;
+    content: url("images/icon-arrow-up.svg");
+}
 .header-accordion.open .accordion-arrow {
     content: url("images/icon-arrow-up.svg");
 }
