@@ -305,4 +305,24 @@ footer {
     .header-logo {
         width: 6.75rem;
     }
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        justify-items: center;
+        padding: 2rem;
+        margin: auto;
+        max-width: 90rem;
+    }
+    .main-section {
+        justify-content: space-around;
+        padding: 0;
+        height: 100%;
+        text-align: left;
+        align-items: start;
+    }
+    .hero-image {
+        width: 80%;
+        height: auto;
+    }
 }
