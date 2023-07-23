@@ -48,6 +48,7 @@ a:hover {
 }
 
 .header-button {
+    height: 3.25rem;
     text-align: center;
     color: var(--mediumgray);
 }
@@ -364,6 +365,9 @@ footer {
     .hero-image {
         width: 100%;
         height: auto;
+    }
+    .header-button {
+        height: 3.25rem;
     }
    
 }
