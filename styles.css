@@ -188,6 +188,13 @@ footer {
     align-items: center;
 }
 
+.main-focus {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.25rem;
+}
+
 .main-header {
     font-size: 34px;
     font-weight: 700;
@@ -310,21 +317,38 @@ footer {
         grid-template-columns: 1fr 1fr;
         align-items: center;
         justify-items: center;
-        padding: 2rem;
-        gap: 7rem;
+        padding: 2rem 4rem;
+        gap: calc(10%);
         margin: auto;
-        max-width: 75rem;
+        max-width: 79rem;
     }
     .main-section {
         justify-content: space-between;
         padding: 0;
-        padding-top: 4rem;
         height: 100%;
         text-align: left;
         align-items: start;
+    }
+    .main-header {
+        font-size: 76px;
+    }
+    .main-body {
+        padding-right: 2rem;
+    }
+    .main-focus {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        height: 100%;
+        align-items: start;
+        gap: 0;
+    }
+    .main-clients {
+        margin-top: 0;
     }
     .hero-image {
         width: 100%;
         height: auto;
     }
+   
 }
