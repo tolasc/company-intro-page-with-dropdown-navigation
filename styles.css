@@ -290,11 +290,6 @@ footer {
         padding: 0;
         gap: 2.75rem;
     }
-    .header-register {
-        height: 2.75rem;
-        width: 8.25rem;
-        padding: 0;
-    }
     .header-accordion-content {
         position: absolute;
         max-height: inherit;
@@ -368,6 +363,7 @@ footer {
     }
     .header-button {
         height: 3.25rem;
+        width: 8.25rem;
     }
    
 }
