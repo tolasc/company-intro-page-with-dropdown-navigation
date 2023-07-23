@@ -311,18 +311,20 @@ footer {
         align-items: center;
         justify-items: center;
         padding: 2rem;
+        gap: 7rem;
         margin: auto;
-        max-width: 90rem;
+        max-width: 75rem;
     }
     .main-section {
-        justify-content: space-around;
+        justify-content: space-between;
         padding: 0;
+        padding-top: 4rem;
         height: 100%;
         text-align: left;
         align-items: start;
     }
     .hero-image {
-        width: 80%;
+        width: 100%;
         height: auto;
     }
 }
