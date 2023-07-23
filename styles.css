@@ -31,6 +31,15 @@ button {
     text-align: left;
 }
 
+button:hover {
+    color: var(--almostblack);
+    transition: color 0.2s ease-in-out;
+}
+a:hover {
+    color: var(--almostblack);
+    transition: color 0.2s ease-in-out;
+}
+
 .header-account {
     display: flex;
     flex-direction: column;
@@ -138,6 +147,9 @@ footer {
 
 .header-accordion {
     color: var(--mediumgray);
+}
+.header-accordion.open {
+    color: var(--almostblack);
 }
 
 .header-accordion img{
