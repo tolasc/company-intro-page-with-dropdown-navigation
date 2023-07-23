@@ -318,7 +318,7 @@ footer {
         align-items: center;
         justify-items: center;
         padding: 2rem 4rem;
-        gap: calc(10%);
+        gap: 10%;
         margin: auto;
         max-width: 79rem;
     }
@@ -345,6 +345,10 @@ footer {
     }
     .main-clients {
         margin-top: 0;
+    }
+    .main-clients img {
+        max-width: 6rem;
+        max-height: 2.15rem;
     }
     .hero-image {
         width: 100%;
