@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://tascate.github.io/company-intro-page-with-dropdown-navigation/)
+- Live Site URL: [https://tascate.github.io/company-intro-page-with-dropdown-navigation/](https://tascate.github.io/company-intro-page-with-dropdown-navigation/)
 
 ## My process
 
